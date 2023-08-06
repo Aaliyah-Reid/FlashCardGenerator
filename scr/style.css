@@ -1,3 +1,51 @@
+body{
+    margin:0;
+    background-color:#480558;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: coloum;
+
+    
+
+}
+
+
+header{
+    width: 800px;
+
+}
+
+.nav-bar{
+    background-color: #C8B6FB;
+    margin:0;
+    text-align: center;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nav-bar h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-headings{
+    font-size: 18px;
+}
+
+.subjects{
+    font-
+}
+
+
+.sub-topics ul{
+    list-style-type: none;
+    gap: 20px;
+    font-size: 14px;
+
+}
+
 .Library-items {
     background-color: aqua;
     width: 250px;
@@ -33,4 +81,5 @@
     margin: 0;
     padding: 0;
   
+
 }
