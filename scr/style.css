@@ -1,0 +1,36 @@
+.Library-items {
+    background-color: aqua;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    margin: 1%;
+    
+}
+
+.Library-title {
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+.Library-items:hover {
+    color: bisque;
+    background-color: bisque;
+    
+}
+
+.Library-content {
+    background-color: blue;
+}
+
+.Library-body {
+    background-color: blue;
+
+}
+
+.Library-header {
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+  
+}
