@@ -1,47 +1,95 @@
-.homepage-body{
+/* CSS for FlashCard Page */
+
+.fcpage-body{
     margin:0;
     background-color:#480558;
     min-height: 100vh;
     display: flex;
     flex-direction: coloum;
+    font-family: Roboto;
+
 
     
 
 }
 
 
-.homepage-header{
-    width: 1000px;
+.fcpage-header{
+    /* width: 1000px; */
 
 }
 
 .nav-bar{
     background-color: #C8B6FB;
     margin:0;
-    text-align: center;
+    text-align: left;
     float: left;
     display: flex;
     flex-direction: column;
     height: 100%;
-    /* width: 800px; */
+    width: 200px;
+   
 }
 
 .nav-bar h1{
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px
+    ;
+
 }
 
 .nav-headings{
-    font-size: 18px;
+    font-size: 90%;
+    margin-left: 20px;
+    margin-top: 0;
 }
 
+.subjects{
+    font-size: 90%;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
 
 .sub-topics ul{
     list-style-type: none;
     gap: 20px;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: Roboto;
+    margin-left: 0;
+    margin-top: 0;
+    font-weight: 600;
 }
+
+
+
+.flash-card-stack{
+   position: relative;
+   margin: 200px 320px;
+  
+}
+
+.flash-card{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    margin: 0 ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px rgba(76, 76, 76, 0.3);
+}
+
+
+.card-3{
+    left: 100px;
+
+}
+
+
+
+/* CSS for Libraries */
 
 .Library-items {
     background-color: aqua;
