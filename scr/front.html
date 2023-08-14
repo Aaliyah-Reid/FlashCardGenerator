@@ -26,7 +26,11 @@
     <div class="front-upload">
         <center>
 
-        <button onclick="signUp()" class="front-upbutton">upload</button>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file"/>
+            <input type="submit" value="Upload">
+            <!-- <button class="front-upbutton" type="submit">Upload</button> -->
+
 
         <h3>or</h3>
 
